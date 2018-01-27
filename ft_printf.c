@@ -6,7 +6,7 @@
 /*   By: rvinnako <rvinnako@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/08 14:23:05 by rvinnako          #+#    #+#             */
-/*   Updated: 2018/01/08 17:09:32 by rvinnako         ###   ########.fr       */
+/*   Updated: 2018/01/26 02:02:13 by raovinnakota     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,14 +28,14 @@ int		ft_printf(const char *fmt, ...)
 int		main(void)
 {
 	char	*test;
-	char	c;
+	int		c;
 	int		testint;
 
 	test = "test";
 	testint = 5;
-	c = 'r'; 
+	c = 'r';
 	ft_printf("This is a %s\n", test);
 	ft_printf("testint is: %d\n", testint);
-	//ft_printf("This is testing a characte%c", c);
+	ft_printf("This is testing a characte%c", c);
 	return (0);
 }

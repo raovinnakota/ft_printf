@@ -6,7 +6,7 @@
 /*   By: rvinnako <rvinnako@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/08 14:53:20 by rvinnako          #+#    #+#             */
-/*   Updated: 2018/01/08 18:11:42 by rvinnako         ###   ########.fr       */
+/*   Updated: 2018/01/26 02:01:21 by raovinnakota     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,5 @@ int		handle_flags(char *out, char *flag, va_list ap)
 		encoded = ft_itoa(va_arg(ap, int));
 		//ft_strcat(out, va_arg(ap, char));
 	ft_strcat(out, encoded);
-	//flag+=2;
 	return (1);
 }
-
